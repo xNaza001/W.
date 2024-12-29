@@ -1,0 +1,527 @@
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("Inter-Bold.ttf");
+}
+
+/* UNIVERSAL SELECTOR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container {
+  width: 333px;
+  margin: 14px auto;
+}
+
+/* CONTAINER ELEMENTS */
+header h1 {
+  font-family: serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -0.15em;
+}
+
+.unordered {
+  display: none;
+}
+
+.image1 {
+  width: 100%;
+  margin: 14px 0;
+}
+
+.image2 {
+  display: none;
+}
+
+.article1 h1 {
+  font-size: 40px;
+  font-family: "Inter-ExtraBold";
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 14px;
+}
+
+/* .article1 p */
+
+.article1 p {
+  color: hsl(236, 13%, 42%);
+  letter-spacing: 0.7px;
+  font-family: Inter-Regular;
+  font-size: 13.4px;
+  line-height: 24.5px;
+  margin-bottom: 18px;
+}
+
+.article1 button {
+  font-family: "Inter-Regular.ttf";
+  font-weight: bold;
+  font-size: 12.4px;
+  color: hsl(36, 100%, 99%);
+  background: hsl(5, 85%, 63%);
+  border: 0;
+  width: 166.5px;
+  height: 45px;
+  cursor: pointer;
+  /* margin-bottom: 40px; */
+  margin-bottom: 60px;
+}
+
+.article1 button span {
+  display: inline-block;
+  margin: auto;
+}
+
+.article1 button span div {
+  display: inline-block;
+}
+
+.article1 button .button1 {
+  margin-right: 5px;
+}
+
+/* BLACK SECTION */
+/* container */
+.article2 {
+  background-color: hsl(240, 100%, 5%);
+  /* margin-bottom: 40px; */
+  margin-bottom: 60px;
+  padding: 18px;
+}
+
+/* new */
+.article2 h2 {
+  color: hsl(35, 77%, 62%);
+  font-family: "Inter-Bold";
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+/* links */
+.article2 a:link {
+  color: hsl(36, 100%, 99%);
+  font-size: 21px;
+  text-decoration: none;
+  font-family: "Inter-Bold";
+  margin-bottom: 14px;
+}
+
+.article2 a:visited {
+  color: hsl(36, 100%, 99%);
+  text-decoration: none;
+}
+
+.article2 a:hover {
+  /*  color: hsl(36, 100%, 99%); */
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+  transition: 0.45s all ease-in;
+  cursor: pointer;
+}
+
+.article2 a:active {
+  /* color: hsl(36, 100%, 99%); */
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+  transition: 0.45s all ease-in-out;
+}
+
+/* .article2 p {
+    color: hsl(233, 8%, 79%);
+    font-family:'Inter-Regular.ttf';
+    font-size: 14.4px;
+    margin-top: 14px;
+    margin-bottom: 28px;
+} */
+
+.paragraph1,
+.paragraph2 {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter-Regular";
+  font-size: 14.4px;
+  margin-top: 14px;
+  border-bottom: 0.8px solid hsl(233, 8%, 79%);
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+}
+
+.paragraph3 {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter-Regular";
+  font-size: 14.4px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* LAST CONTAINER */
+
+.img-footer {
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+/* tabs */
+.div1,
+.div2,
+.div3 {
+  color: hsl(236, 13%, 42%);
+  font-family: "Inter-Regular.ttf";
+  font-size: 14.4px;
+  line-height: 24.5px;
+  width: 233px;
+  height: 127px;
+  padding: 0 0;
+  padding-left: 20px;
+  margin: 0 auto;
+  float: right;
+}
+
+/* numbers */
+.article3 .div1 h3 {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter-ExtraBold";
+  font-size: 35px;
+  margin: 8px 0;
+}
+
+.article3 .div2 h3 {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter-Bold";
+  font-size: 35px;
+  margin: 8px 0;
+}
+
+.article3 .div3 h3 {
+  color: hsl(233, 8%, 79%);
+  font-family: Inter-Bold;
+  font-size: 35px;
+  margin: 8px 0;
+}
+
+/* links */
+.last-links {
+  color: hsl(236, 13%, 42%);
+  line-height: 24.5px;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  font-family: "Inter-ExtraBold";
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.last-links a:link {
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter-ExtraBold";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.last-links a:visited {
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter-ExtraBold";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.last-links a:hover {
+  text-decoration: none;
+  transition: 0.45s all ease-in;
+  cursor: pointer;
+}
+
+.last-links a:active {
+  text-decoration: none;
+  transition: 0.45s all ease-in;
+  cursor: pointer;
+}
+
+#Naza {
+  color: hsl(236, 13%, 42%);
+  letter-spacing: 3px;
+  font-family: "Inter-Regular";
+  font-size: 5px;
+  text-align: center;
+}
+
+/* DOCUMENT MEDIA QUERIES */
+
+@media screen and (min-width: 375px) {
+  @font-face {
+    font-family: "Inter-ExtraBold";
+    src: url("Inter-ExtraBold.ttf");
+  }
+
+  @font-face {
+    font-family: "Inter-Regular";
+    src: url("Inter-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Inter-Bold";
+    src: url("Inter-Bold.ttf");
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container1 {
+    max-width: 1440px;
+    margin: 40px auto;
+  }
+
+  .container {
+    font-family: sans-serif;
+    width: 1050px;
+    margin: 40px auto;
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container header h1 {
+    font-family: serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -0.15em;
+    margin-bottom: 10px;
+  }
+
+  .unordered {
+    display: inline-block;
+    list-style: none;
+    /* position: absolute;
+    bottom: 725px;
+    left: 625px; */
+  }
+
+  .unordered li {
+    font-family: Inter-Regular;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 35px;
+  }
+
+  .unordered li a:link {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+  }
+
+  .unordered li a:visited {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+  }
+
+  .unordered li a:hover {
+    color: hsl(5, 85%, 63%);
+    text-decoration:underline;
+  }
+
+  .unordered li a:active {
+    color: hsl(5, 85%, 63%)
+    text-decoration: none;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    /* width: 760px; */
+    width: 700px;
+    display: initial;
+    margin-bottom: 15px;
+  }
+
+  .article1 {
+    position: relative;
+    width: 720px;
+    float: left;
+  }
+
+  .article1 h1 {
+    font-family: "Inter-ExtraBold";
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    display: inline-block;
+    margin-top: 9px;
+    width: 270px;
+  }
+
+  /* .article1 p {
+    display: none;
+  } */
+
+  .main {
+    font-family: Inter-Regular;
+    font-size: 13px;
+    line-height: 19px;
+    width: 339px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 360px;
+    bottom: 100px;
+  }
+
+  .main1 {
+    position: relative;
+    left: 84.3px;
+    bottom: -14px;
+    /*left: 50%;
+     bottom: 135px; 
+    bottom: 40px;
+    display: block;
+    float: right;
+    clear: both; */
+  }
+
+  .main1 div {
+    font-family: "Inter-Regular";
+    font-size: 13px;
+  }
+
+  /* article2 */
+  .article2 {
+    width: 330px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 720px;
+    /* bottom: 44.15%; */
+    bottom: 149px;
+  }
+
+  .article2 p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .article2 a:link {
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Inter-Bold";
+    margin-bottom: 14px;
+  }
+
+  .article2 a:visited {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+  }
+
+  .article2 a:hover {
+    /*  color: hsl(36, 100%, 99%); */
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    transition: 0.45s all ease-in;
+    cursor: pointer;
+  }
+
+  .article2 a:active {
+    /* color: hsl(36, 100%, 99%); */
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    transition: 0.45s all ease-in-out;
+  }
+
+  .article3 {
+    letter-spacing: 1px;
+    clear: both;
+    margin-top: 225px;
+  }
+
+  .img-footer,
+  .div1,
+  .div2,
+  .div3 {
+    float: left;
+  }
+
+  .div1 {
+    font-family: "Inter-Regular";
+    font-size: 13px;
+    margin-right: 25px;
+  }
+
+  .div2 {
+    font-family: "Inter-Regular";
+    font-size: 13px;
+    margin-right: 27px;
+  }
+
+  .div3 {
+    font-family: "Inter-Regular";
+    font-size: 13px;
+    width: 228px;
+  }
+
+  .last-links {
+    font-family: "Inter-ExtraBold";
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  .last-links a:link {
+    color: hsl(240, 100%, 5%);
+    font-family: "Inter-ExtraBold";
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .last-links a:visited {
+    color: hsl(240, 100%, 5%);
+    font-family: "Inter-ExtraBold";
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .last-links a:hover {
+    text-decoration: none;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%); 
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: 0.15s all ease-in-out;
+    cursor: pointer;
+  }
+
+  .last-links a:active {
+    text-decoration: none;
+    /* color: hsl(178, 100%, 50%);
+    transition: 0.45s all ease-in; */
+    cursor: pointer;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #Naza {
+    color: hsl(236, 13%, 42%);
+    letter-spacing: 3px;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 465.8205px;
+  }
+}
